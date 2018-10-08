@@ -1,9 +1,9 @@
-turn = 0
-if
+def turn_count (board)
+  counter = 0
+  board.each do
+    if condition
+      
+    else
   counter += 1
-end
 
-
-current_player
-if turn % 2 
-  then "X"
+def current_player
