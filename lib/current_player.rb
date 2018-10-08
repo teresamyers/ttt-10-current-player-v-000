@@ -1,5 +1,5 @@
 turn = 0
-if 
+if
   counter += 1
 end
 
@@ -7,4 +7,3 @@ end
 current_player
 if turn % 2 
   then "X"
-
