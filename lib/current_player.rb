@@ -10,15 +10,14 @@ def turn_count (board)
 end
 
 def current_player(board)
-  moves = turn_count(board)
+  num_moves = turn_count(board)
   =begin
-  if moves % 2 == 0
+  if num_moves % 2 == 0
     current_player = "X"
   else
     current_player = "O"
   end
   =end
-
   moves % 2 == 0 ? current_player = "X" : current_player = "O"
 
   current_player
